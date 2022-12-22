@@ -1,7 +1,10 @@
 <html>
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=0.5">
-  <link href="https://fonts.googleapis.com/css?family=Archivo+Narrow|Cookie&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Oleo+Script&family=Rubik+Gemstones&display=swap" rel="stylesheet">
+
   <style>
     body {
       width: 99%;
@@ -13,9 +16,9 @@
       justify-content: center;
       align-items: center;
       text-align: center;
-      background-image: url('bg.jpg');
+      background-color: #F2D2BD;
       background-size: cover;
-      color: #900909
+      color: #68091d
     }
 
     .card {
@@ -25,15 +28,17 @@
     }
 
     h1 {
-      font-family: 'Cookie', serif;
+      font-family: 'Rubik Gemstones', cursive;
       font-size: 2em;
       margin-top: 2em;
       padding: 0.3em;
-      background-color: white;
+      position: absolute;
+      top: -1.8em;
+      left: -45px;
     }
 
     h5 {
-      font-family: 'Cookie', serif;
+      font-family: 'Oleo Script', cursive;
     }
 
     h5,
@@ -52,7 +57,7 @@
 
     .page,
     .front {
-      background: url('pokemon-winter.jpg') no-repeat center;
+      background: url('hcfrontcover.jpg') no-repeat center;
       background-size: cover;
     }
 
@@ -67,7 +72,7 @@
       height: 100%;
       top: 0;
       left: 0;
-      background-color: #F7F7F7;
+      background-color: #FFF5EE;
       padding: 40px;
     }
 
@@ -90,23 +95,23 @@
 
 <body>
   <div class="input">
-    <label for="name">Who goes there?</label><br>
+    <label for="name">who's this for? :*</label><br>
     <input type="text" name="name" id="name"> 
     <button onclick="openCard()">Go ></button>
   </div>
 
   <div class="card">
     <div class="back">
-        <h5 id="greeting">Dear Friend,</h5>
+        <h5 id="greeting">dear Friend,</h5>
         <p id="custom-greeting">'Tis the season of giving and gratitude. We wish you and your family a
           joyous and happy holiday season. </p>
-        <h5>Ms. Paulino</h5>
-    </div>
-    <div class="page">
-      <img src="wths-logo.png">
+        <h5>sherise</h5>
     </div>
     <div class="front">
-      <h1>Happy Holidays!</h1>
+      <pre>
+      <h1>      Happy
+        Holidays!</h1>
+      </pre>
     </div>
   </div>
 </body>
